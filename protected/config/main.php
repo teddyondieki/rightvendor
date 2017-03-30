@@ -91,8 +91,8 @@ return array(
     // application-level parameters that can be accessed
     // using Yii::app()->params['paramName']
     'params' => array(
-        // this is used in contact page
-        'adminEmail' => 'info@rightvendor.co.ke',
+        // this is used in contact page, change to suit your domain
+        'adminEmail' => 'info@rightvendor',
         'currency' => 'KSh.',
     ),
 );
