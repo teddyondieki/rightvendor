@@ -5,7 +5,7 @@ It is more of a social application than just a portal.
 Some of the features are:
 
 <ul>
-<li>Messaging</li>
+<li>Inbox Messaging</li>
 <li>Photo Gallery</li>
 <li>User Management</li>
 </ul>
