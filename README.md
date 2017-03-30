@@ -10,4 +10,4 @@ Some of the features are:
 <li>User Management</li>
 </ul>
 
-The database schema is contained in rightvendor_db.sql
+The database schema is contained in db/rightvendor_db.sql
