@@ -33,7 +33,7 @@ $(function() {
     });
 
     // layout Masonry again after all images have loaded
-    imagesLoaded(container, function() {
+    $('#posts').imagesLoaded(container, function() {
         msnry.layout();
     });
 

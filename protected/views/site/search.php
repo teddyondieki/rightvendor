@@ -7,7 +7,7 @@
     <!--<div class="row">-->
 
         <div class="welcomeText">
-            <strong>Welcome to weddingvibe</strong>, a vibrant community of wedding vendors, engaged couples and wedded couples.
+            <strong>Welcome to <?php echo Yii::app()->name; ?></strong>, a vibrant community of wedding vendors, engaged and married couples.
         </div>
     <!--</div>-->
    

@@ -11,6 +11,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
         <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 
@@ -143,7 +144,8 @@
 
         <div id="footer">
             <div class="container">
-                <p class="pull-left">Copyright &copy; <?php echo date('Y'); ?>  <a href="http://rightvendor.co.ke">Right Vendor</a></p>
+                <p class="pull-left">Copyright &copy; <?php echo date('Y'); ?>  <a href=""><?php echo Yii::app()->name; ?></a></p>
+
                 <?php
                 $this->widget('zii.widgets.CMenu', array(
                     'items' => array(

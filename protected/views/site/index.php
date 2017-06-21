@@ -15,7 +15,7 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl . "/js/script.j
 ?>
 
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
+<script>(function (d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id))
             return;
@@ -27,20 +27,20 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl . "/js/script.j
 
 <div id="searchDiv">
     <div class="container">
-        <div class="col-lg-15">
+        <div class="col-lg-14">
             <?php
             $this->renderPartial('search', array(
                 'model' => $model,
             ));
             ?> 
         </div>
-        <div class="col-lg-5">
+        <div class="col-lg-6">
             <div class="panel panel-info">
                 <div class="panel-heading">
-                    Wedding Geek Online Community
+                    <?php echo Yii::app()->name; ?> Online Community
                 </div>
                 <div class="panel-body">
-                    <div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="false" data-show-border="true"></div>
+                    <div class="fb-like-box" data-href="https://www.facebook.com/KeWeddingVibe" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="false" data-show-border="true"></div>
                 </div>
             </div>
 
@@ -78,7 +78,7 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl . "/js/script.j
 
                 <?php
                 if ($colorTag == $hex) {
-                    echo '>>';
+                    echo '>';
                 }
                 ?>
                 <span style="background-color: <?php echo $hex; ?>">
@@ -91,7 +91,7 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl . "/js/script.j
 
                 <?php
                 if ($colorTag == $hex) {
-                    echo '<<';
+                    echo '<';
                 }
                 ?>
                 <?php

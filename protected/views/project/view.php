@@ -9,6 +9,7 @@ $this->breadcrumbs = array(
 
 Yii::app()->clientScript->registerCoreScript("jquery");
 Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl . "/js/bootstrap.min.js");
+Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl . "/js/imagesloaded.pkgd.min.js");
 Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl . "/js/masonry.pkgd.js");
 Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl . "/js/script.js");
 ?>
