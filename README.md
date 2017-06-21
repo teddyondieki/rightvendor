@@ -1,13 +1,9 @@
-A PHP/Yii(v1) web project to connect wedding couples and vendors.
+A social platform to connect couples and wedding vendors. 
 
-It is more of a social application than just a portal.
-
-Some of the features are:
+Import DB from db/rightvendor_db.sql
 
 <ul>
 <li>Inbox Messaging</li>
 <li>Photo Gallery</li>
 <li>User Management</li>
 </ul>
-
-The database schema is contained in db/rightvendor_db.sql
